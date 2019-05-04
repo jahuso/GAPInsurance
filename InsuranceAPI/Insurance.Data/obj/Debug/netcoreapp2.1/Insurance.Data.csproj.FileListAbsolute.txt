@@ -1,0 +1,10 @@
+F:\InsuranceTest\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.deps.json
+F:\InsuranceTest\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.runtimeconfig.json
+F:\InsuranceTest\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.runtimeconfig.dev.json
+F:\InsuranceTest\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.dll
+F:\InsuranceTest\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.pdb
+F:\InsuranceTest\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.csproj.CoreCompileInputs.cache
+F:\InsuranceTest\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.AssemblyInfoInputs.cache
+F:\InsuranceTest\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.AssemblyInfo.cs
+F:\InsuranceTest\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.dll
+F:\InsuranceTest\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.pdb
