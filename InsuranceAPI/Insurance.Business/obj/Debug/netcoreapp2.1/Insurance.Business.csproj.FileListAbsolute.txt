@@ -7,3 +7,12 @@ F:\InsuranceTest\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insuran
 F:\InsuranceTest\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.AssemblyInfo.cs
 F:\InsuranceTest\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.dll
 F:\InsuranceTest\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Business\bin\Debug\netcoreapp2.1\Insurance.Business.deps.json
+F:\GapInsurance\InsuranceAPI\Insurance.Business\bin\Debug\netcoreapp2.1\Insurance.Business.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Business\bin\Debug\netcoreapp2.1\Insurance.Business.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.csproj.CoreCompileInputs.cache
+F:\GapInsurance\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.AssemblyInfoInputs.cache
+F:\GapInsurance\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.AssemblyInfo.cs
+F:\GapInsurance\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.csprojAssemblyReference.cache

@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Business\\Insurance.Business.csproj",
+      "projectUniqueName": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Business\\Insurance.Business.csproj",
       "projectName": "Insurance.Business",
-      "projectPath": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Business\\Insurance.Business.csproj",
+      "projectPath": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Business\\Insurance.Business.csproj",
       "packagesPath": "C:\\Users\\Mieles\\.nuget\\packages\\",
-      "outputPath": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Business\\obj\\",
+      "outputPath": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

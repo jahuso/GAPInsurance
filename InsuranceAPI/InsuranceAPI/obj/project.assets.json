@@ -12592,11 +12592,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\InsuranceTest\\InsuranceAPI\\InsuranceAPI\\InsuranceAPI.csproj",
+      "projectUniqueName": "F:\\GapInsurance\\InsuranceAPI\\InsuranceAPI\\InsuranceAPI.csproj",
       "projectName": "InsuranceAPI",
-      "projectPath": "F:\\InsuranceTest\\InsuranceAPI\\InsuranceAPI\\InsuranceAPI.csproj",
+      "projectPath": "F:\\GapInsurance\\InsuranceAPI\\InsuranceAPI\\InsuranceAPI.csproj",
       "packagesPath": "C:\\Users\\Mieles\\.nuget\\packages\\",
-      "outputPath": "F:\\InsuranceTest\\InsuranceAPI\\InsuranceAPI\\obj\\",
+      "outputPath": "F:\\GapInsurance\\InsuranceAPI\\InsuranceAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12615,11 +12615,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Business\\Insurance.Business.csproj": {
-              "projectPath": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Business\\Insurance.Business.csproj"
+            "F:\\GapInsurance\\InsuranceAPI\\Insurance.Business\\Insurance.Business.csproj": {
+              "projectPath": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Business\\Insurance.Business.csproj"
             },
-            "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Repos\\Insurance.Repos.csproj": {
-              "projectPath": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Repos\\Insurance.Repos.csproj"
+            "F:\\GapInsurance\\InsuranceAPI\\Insurance.Repos\\Insurance.Repos.csproj": {
+              "projectPath": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Repos\\Insurance.Repos.csproj"
             }
           }
         }

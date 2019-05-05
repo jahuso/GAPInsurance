@@ -1,0 +1,17 @@
+F:\GapInsurance\InsuranceAPI\Insurance.Test\obj\Debug\netcoreapp2.1\Insurance.Test.csprojAssemblyReference.cache
+F:\GapInsurance\InsuranceAPI\Insurance.Test\obj\Debug\netcoreapp2.1\Insurance.Test.csproj.CoreCompileInputs.cache
+F:\GapInsurance\InsuranceAPI\Insurance.Test\obj\Debug\netcoreapp2.1\Insurance.Test.AssemblyInfoInputs.cache
+F:\GapInsurance\InsuranceAPI\Insurance.Test\obj\Debug\netcoreapp2.1\Insurance.Test.AssemblyInfo.cs
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Test.deps.json
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Test.runtimeconfig.json
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Test.runtimeconfig.dev.json
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Test.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Test.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Business.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Business.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Test\obj\Debug\netcoreapp2.1\Insurance.Test.csproj.CopyComplete
+F:\GapInsurance\InsuranceAPI\Insurance.Test\obj\Debug\netcoreapp2.1\Insurance.Test.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Test\obj\Debug\netcoreapp2.1\Insurance.Test.pdb

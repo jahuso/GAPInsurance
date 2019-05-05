@@ -5,9 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Core\DTOs\" />
-    <Folder Include="Core\Repositories\" />
-    <Folder Include="Persistancy\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

@@ -20,7 +20,7 @@ namespace Insurance.Data.Models
         public string CoverageType { get; set; }
         [Required]
         [Column(TypeName = "decimal(3,2)")]
-        public float Coverage { get; set; }
+        public double Coverage { get; set; }
         [Required]
         [Column(TypeName = "smalldatetime")]
         public DateTime VigencyStart { get; set; }

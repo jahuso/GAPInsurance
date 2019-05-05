@@ -3603,11 +3603,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Repos\\Insurance.Repos.csproj",
+      "projectUniqueName": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Repos\\Insurance.Repos.csproj",
       "projectName": "Insurance.Repos",
-      "projectPath": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Repos\\Insurance.Repos.csproj",
+      "projectPath": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Repos\\Insurance.Repos.csproj",
       "packagesPath": "C:\\Users\\Mieles\\.nuget\\packages\\",
-      "outputPath": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Repos\\obj\\",
+      "outputPath": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Repos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3626,8 +3626,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Data\\Insurance.Data.csproj": {
-              "projectPath": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Data\\Insurance.Data.csproj"
+            "F:\\GapInsurance\\InsuranceAPI\\Insurance.Data\\Insurance.Data.csproj": {
+              "projectPath": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Data\\Insurance.Data.csproj"
             }
           }
         }

@@ -8,3 +8,14 @@ F:\InsuranceTest\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.D
 F:\InsuranceTest\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.AssemblyInfo.cs
 F:\InsuranceTest\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.dll
 F:\InsuranceTest\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.deps.json
+F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.runtimeconfig.json
+F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.runtimeconfig.dev.json
+F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.csproj.CoreCompileInputs.cache
+F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.AssemblyInfoInputs.cache
+F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.AssemblyInfo.cs
+F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.csprojAssemblyReference.cache

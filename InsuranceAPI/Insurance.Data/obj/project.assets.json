@@ -3585,11 +3585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Data\\Insurance.Data.csproj",
+      "projectUniqueName": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Data\\Insurance.Data.csproj",
       "projectName": "Insurance.Data",
-      "projectPath": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Data\\Insurance.Data.csproj",
+      "projectPath": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Data\\Insurance.Data.csproj",
       "packagesPath": "C:\\Users\\Mieles\\.nuget\\packages\\",
-      "outputPath": "F:\\InsuranceTest\\InsuranceAPI\\Insurance.Data\\obj\\",
+      "outputPath": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
