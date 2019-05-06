@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Insurance.Data.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,7 +7,7 @@ namespace Insurance.Repos.Contracts
 {
     public interface ICustomerRepository
     {
-        void AssignPolicy(int id);
-        void CancelPolicy(int id);
+        void AssignPolicy(Customer customer);
+        void CancelPolicy(Customer customer);
     }
 }

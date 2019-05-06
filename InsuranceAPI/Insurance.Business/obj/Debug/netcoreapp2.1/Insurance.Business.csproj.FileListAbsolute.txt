@@ -16,3 +16,8 @@ F:\GapInsurance\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insuranc
 F:\GapInsurance\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.dll
 F:\GapInsurance\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.pdb
 F:\GapInsurance\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.csprojAssemblyReference.cache
+F:\GapInsurance\InsuranceAPI\Insurance.Business\bin\Debug\netcoreapp2.1\Insurance.Data.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Business\bin\Debug\netcoreapp2.1\Insurance.Repos.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Business\bin\Debug\netcoreapp2.1\Insurance.Repos.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Business\bin\Debug\netcoreapp2.1\Insurance.Data.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Business\obj\Debug\netcoreapp2.1\Insurance.Business.csproj.CopyComplete

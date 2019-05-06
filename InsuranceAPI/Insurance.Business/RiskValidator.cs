@@ -15,10 +15,10 @@ namespace Insurance.Business
             Coverage = coverage;
         }
 
-        public bool ValidateRisk()
+        public string ValidateRisk()
         {
             //Validacion de riesgo
-            return (Risk == "Alto") ? true : false;
+            return (Risk == "Alto" && Coverage>=0.5) ? "La cobertura no puede ser mayor al 50% si el riesgo es alto" : "OK";
         }
     }
 }

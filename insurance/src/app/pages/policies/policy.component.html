@@ -1,0 +1,49 @@
+<h3>Poliza <small>nombre</small></h3>
+<button [routerLink]="['/policies']" class="btn btn-outline-danger">Regresar</button>
+<button (click)="addNew(forma)" type="button" class="btn btn-outline-success">Nueva</button>
+<div class="row animated fadeIn fast">
+    <div class="col-md-12">
+        <form (ngSubmit)="createPolicy(forma)" #forma="ngForm" novalidate="">
+            <div class="form-group">
+                <label>Nombre</label>
+                <input [(ngModel)]="policy.name" name="name" type="text" class="form-control" placeholder="" required>
+            </div>
+            <div class="form-group">
+                <label>Descripcion</label>
+                <input [(ngModel)]="policy.description" name="description" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Tipo Cobertura</label>
+                <input [(ngModel)]="policy.coverageType" name="coverageType" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Cobertura</label>
+                <input [(ngModel)]="policy.coverage" name="coverage" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Fecha Inicio</label>
+                <input [(ngModel)]="policy.vigencyStart" name="vigencyStart" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Periodo Cobertura</label>
+                <input [(ngModel)]="policy.coveragePeriod" name="coveragePeriod" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Precio</label>
+                <input [(ngModel)]="policy.price" name="price" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Tipo Riesgo</label>
+                <input [(ngModel)]="policy.riskType" name="riskType" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <button [disabled]="!forma.valid" type="submit" class="btn btn-outline-primary">
+                  Guardar Cambios
+                </button>
+            </div>
+            <div *ngIf="(errorMessage)" class="alert alert-danger" role="alert">
+                <strong>{{errorMessage}}</strong>
+            </div>
+        </form>
+    </div>
+</div>

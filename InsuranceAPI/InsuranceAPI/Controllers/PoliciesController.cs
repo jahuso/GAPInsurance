@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Insurance.Data.Models;
+using Insurance.Business;
 
 namespace InsuranceAPI.Controllers
 {
@@ -60,11 +61,22 @@ namespace InsuranceAPI.Controllers
                 return BadRequest();
             }
 
+            RiskValidator oValidator = new RiskValidator(policy.RiskType, policy.Coverage);
+            var result = oValidator.ValidateRisk();
+
             _context.Entry(policy).State = EntityState.Modified;
 
             try
             {
-                await _context.SaveChangesAsync();
+                if (result=="OK")
+                {
+                    await _context.SaveChangesAsync();
+                }
+                else
+                {
+                    return Conflict(result);
+                }
+                
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -90,10 +102,20 @@ namespace InsuranceAPI.Controllers
                 return BadRequest(ModelState);
             }
 
-            _context.Policies.Add(policy);
-            await _context.SaveChangesAsync();
+            RiskValidator oValidator = new RiskValidator(policy.RiskType, policy.Coverage);
+            var result = oValidator.ValidateRisk();
 
-            return CreatedAtAction("GetPolicy", new { id = policy.Id }, policy);
+            if (result=="OK")
+            {
+                _context.Policies.Add(policy);
+                await _context.SaveChangesAsync();
+
+                return CreatedAtAction("GetPolicy", new { id = policy.Id }, policy);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
         }
 
         // DELETE: api/Policies/5

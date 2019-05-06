@@ -6,6 +6,6 @@ namespace Insurance.Business
 {
     public interface IValidator
     {
-        bool ValidateRisk();
+        string ValidateRisk();
     }
 }

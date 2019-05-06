@@ -4619,6 +4619,9 @@
       "Insurance.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Insurance.Repos": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Insurance.Business.dll": {}
         },
@@ -12580,6 +12583,7 @@
       "Insurance.Business >= 1.0.0",
       "Insurance.Repos >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
+      "Microsoft.AspNetCore.Identity >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
@@ -12638,6 +12642,10 @@
             "target": "Package",
             "version": "[2.1.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.Identity": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",

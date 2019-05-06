@@ -17,7 +17,7 @@ namespace Insurance.Test
         {
 
             var result = riskValidator.ValidateRisk();
-            Assert.IsTrue(result, "La cobertura esta bien");
+            Assert.AreEqual("OK", "La cobertura esta bien");
 
         }
 
@@ -27,7 +27,7 @@ namespace Insurance.Test
 
             var result = riskValidator.ValidateRisk();
 
-            Assert.IsFalse(result, "La cobertura no puede ser tan alta");
+            Assert.AreNotEqual("OK", "La cobertura no puede ser tan alta");
         }
     }
 }

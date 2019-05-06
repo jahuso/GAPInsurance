@@ -15,3 +15,7 @@ F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Bu
 F:\GapInsurance\InsuranceAPI\Insurance.Test\obj\Debug\netcoreapp2.1\Insurance.Test.csproj.CopyComplete
 F:\GapInsurance\InsuranceAPI\Insurance.Test\obj\Debug\netcoreapp2.1\Insurance.Test.dll
 F:\GapInsurance\InsuranceAPI\Insurance.Test\obj\Debug\netcoreapp2.1\Insurance.Test.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Data.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Repos.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Data.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Test\bin\Debug\netcoreapp2.1\Insurance.Repos.pdb

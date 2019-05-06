@@ -1,11 +1,11 @@
-﻿using System;
+﻿using Insurance.Business;
+using Insurance.Data.Models;
+using Insurance.Repos;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Insurance.Data.Models;
 
 namespace InsuranceAPI.Controllers
 {
@@ -81,20 +81,7 @@ namespace InsuranceAPI.Controllers
             return NoContent();
         }
 
-        // POST: api/Customers
-        [HttpPost]
-        public async Task<IActionResult> PostCustomer([FromBody] Customer customer)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
 
-            _context.Customers.Add(customer);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetCustomer", new { id = customer.Id }, customer);
-        }
 
         // DELETE: api/Customers/5
         [HttpDelete("{id}")]

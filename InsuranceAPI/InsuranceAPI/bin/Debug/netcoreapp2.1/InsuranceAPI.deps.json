@@ -27,6 +27,7 @@
           "Insurance.Business": "1.0.0",
           "Insurance.Repos": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
+          "Microsoft.AspNetCore.Identity": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1"
@@ -517,6 +518,9 @@
         }
       },
       "Insurance.Business/1.0.0": {
+        "dependencies": {
+          "Insurance.Repos": "1.0.0"
+        },
         "runtime": {
           "Insurance.Business.dll": {}
         },

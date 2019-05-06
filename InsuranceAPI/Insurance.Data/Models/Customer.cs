@@ -13,7 +13,7 @@ namespace Insurance.Data.Models
         [Required]
         [Column(TypeName = "nvarchar(100)")]
         public string Name { get; set; }
-        [Column(TypeName = "nvarchar(50)")]
+        [Column(TypeName = "int")]
         public int PolicyId { get; set; }
     }
 }

@@ -1,28 +1,39 @@
 ﻿using Insurance.Data.Models;
 using Insurance.Repos.Contracts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Insurance.Repos
 {
-    public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
+    public class CustomerRepository : ICustomerRepository
     {
         private readonly InsuranceDBContext _DbContext;
 
-        public CustomerRepository(InsuranceDBContext context) : base(context)
+        public CustomerRepository(InsuranceDBContext context)
         {
-            this._DbContext = context;
+            _DbContext = context;
         }
 
-        public void AssignPolicy(int id)
+        public void AssignPolicy(Customer customer)
         {
-            throw new NotImplementedException();
+
+            try
+            {
+                //_DbContext.Entry(customer).State = EntityState.Modified;
+                _DbContext.Customers.Update(customer);
+                _DbContext.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
-        public void CancelPolicy(int id)
+        public void CancelPolicy(Customer customer)
         {
-            throw new NotImplementedException();
+            _DbContext.Customers.Remove(customer);
         }
     }
 }

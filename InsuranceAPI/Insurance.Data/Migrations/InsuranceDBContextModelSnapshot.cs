@@ -33,10 +33,8 @@ namespace Insurance.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("PolicyId")
-                        .IsRequired()
-                        .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 64)))
-                        .HasColumnType("nvarchar(50)");
+                    b.Property<int>("PolicyId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

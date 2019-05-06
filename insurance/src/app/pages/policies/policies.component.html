@@ -1,0 +1,61 @@
+<h1>Polizas</h1>
+<hr>
+
+<div class="row">
+    <div class="col-md-12 text-right">
+        <button [routerLink]="['/dashboard']" class="btn btn-outline-danger">Regresar</button>
+        <button [routerLink]="['/policy', 'new']" class="btn btn-outline-primary" type="button" name="button">
+          Nueva Poliza
+      </button>
+    </div>
+</div>
+<br><br>
+
+<div class="row animated fadeIn fast">
+    <div class="col-md-12">
+        <div class="table-responsive">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>TipoCobertura</th>
+                        <th>Cobertura</th>
+                        <th>InicioVigencia</th>
+                        <th>Tiempo</th>
+                        <th>Precio</th>
+                        <th>TipoRiesgo</th>
+                        <th class="text-right">Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let policy of policies">
+                        <td>{{ policy.id }}</td>
+                        <td>{{ policy.name }}</td>
+                        <td>{{ policy.coverageType }}</td>
+                        <td>{{ policy.coverage }}</td>
+                        <td>{{ policy.vigencyStart | date: 'dd-MM-yyyy' }}</td>
+                        <td>{{ policy.coveragePeriod }}</td>
+                        <td>{{ policy.price | currency:'COP':'symbol':'1.0'}}</td>
+                        <td>{{ policy.riskType }}</td>
+                        <td class="text-right w230">
+                            <button [routerLink]="['/policy', policy.id ]" type="button" class="btn btn-outline-success">
+                              Editar
+                          </button>
+                            <button (click)="deletePolicy(policy.id)" type="button" class="btn btn-outline-danger">
+                              Eliminar
+                          </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div *ngIf="(policies).length === 0 && !loading" class="alert alert-info" role="alert">
+                <strong>no hay</strong> registros que mostrar
+            </div>
+
+            <div *ngIf="loading" class="alert alert-warning" role="alert">
+                <strong>cargando</strong> por favor espere
+            </div>
+        </div>
+    </div>
+</div>
