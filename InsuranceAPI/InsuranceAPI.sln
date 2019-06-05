@@ -7,11 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceAPI", "InsuranceAP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.Data", "Insurance.Data\Insurance.Data.csproj", "{24357660-D078-4805-B72A-0039AB118590}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.Repos", "Insurance.Repos\Insurance.Repos.csproj", "{27355603-6D18-4C56-A49D-879177DD8E93}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.Business", "Insurance.Business\Insurance.Business.csproj", "{8D10DE2A-51E4-4F30-8530-3C820D7F2454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.Test", "Insurance.Test\Insurance.Test.csproj", "{BD7446ED-D605-435F-B9A7-F1F0B92CD8A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.Test", "Insurance.Test\Insurance.Test.csproj", "{BD7446ED-D605-435F-B9A7-F1F0B92CD8A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +25,6 @@ Global
 		{24357660-D078-4805-B72A-0039AB118590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24357660-D078-4805-B72A-0039AB118590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24357660-D078-4805-B72A-0039AB118590}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27355603-6D18-4C56-A49D-879177DD8E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27355603-6D18-4C56-A49D-879177DD8E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27355603-6D18-4C56-A49D-879177DD8E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27355603-6D18-4C56-A49D-879177DD8E93}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8D10DE2A-51E4-4F30-8530-3C820D7F2454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D10DE2A-51E4-4F30-8530-3C820D7F2454}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D10DE2A-51E4-4F30-8530-3C820D7F2454}.Release|Any CPU.ActiveCfg = Release|Any CPU

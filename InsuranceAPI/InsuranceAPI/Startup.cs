@@ -26,6 +26,8 @@ namespace InsuranceAPI
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<InsuranceDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
+            services.AddTransient<IPolicyRepository, PolicyRepository>();
+            services.AddTransient<ICustomerRepository, CustomerRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

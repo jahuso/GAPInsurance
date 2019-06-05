@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Insurance.Business;
+using Insurance.Data.Models;
+using Insurance.Repos;
+using Insurance.Repos.Contracts;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Insurance.Data.Models;
-using Insurance.Business;
 
 namespace InsuranceAPI.Controllers
 {
@@ -14,18 +14,18 @@ namespace InsuranceAPI.Controllers
     [ApiController]
     public class PoliciesController : ControllerBase
     {
-        private readonly InsuranceDBContext _context;
+        private readonly IPolicyRepository _policyRepository;
 
-        public PoliciesController(InsuranceDBContext context)
+        public PoliciesController(IPolicyRepository policyRepository)
         {
-            _context = context;
+            _policyRepository = policyRepository;
         }
 
         // GET: api/Policies
         [HttpGet]
         public IEnumerable<Policy> GetPolicies()
         {
-            return _context.Policies;
+            return _policyRepository.GetPolicies();
         }
 
         // GET: api/Policies/5
@@ -37,7 +37,7 @@ namespace InsuranceAPI.Controllers
                 return BadRequest(ModelState);
             }
 
-            var policy = await _context.Policies.FindAsync(id);
+            var policy = _policyRepository.GetPolicy(id);
 
             if (policy == null)
             {
@@ -64,13 +64,11 @@ namespace InsuranceAPI.Controllers
             RiskValidator oValidator = new RiskValidator(policy.RiskType, policy.Coverage);
             var result = oValidator.ValidateRisk();
 
-            _context.Entry(policy).State = EntityState.Modified;
-
             try
             {
                 if (result=="OK")
                 {
-                    await _context.SaveChangesAsync();
+                    _policyRepository.Update(policy);
                 }
                 else
                 {
@@ -107,9 +105,7 @@ namespace InsuranceAPI.Controllers
 
             if (result=="OK")
             {
-                _context.Policies.Add(policy);
-                await _context.SaveChangesAsync();
-
+                _policyRepository.Add(policy);
                 return CreatedAtAction("GetPolicy", new { id = policy.Id }, policy);
             }
             else
@@ -127,21 +123,20 @@ namespace InsuranceAPI.Controllers
                 return BadRequest(ModelState);
             }
 
-            var policy = await _context.Policies.FindAsync(id);
+            var policy = _policyRepository.GetPolicy(id);
             if (policy == null)
             {
                 return NotFound();
             }
 
-            _context.Policies.Remove(policy);
-            await _context.SaveChangesAsync();
+            _policyRepository.Delete(id);
 
             return Ok(policy);
         }
 
         private bool PolicyExists(int id)
         {
-            return _context.Policies.Any(e => e.Id == id);
+            return _policyRepository.PolicyExists(id);
         }
     }
 }

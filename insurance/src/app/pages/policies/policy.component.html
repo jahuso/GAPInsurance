@@ -5,35 +5,39 @@
     <div class="col-md-12">
         <form (ngSubmit)="createPolicy(forma)" #forma="ngForm" novalidate="">
             <div class="form-group">
-                <label>Nombre</label>
+                <label>Name</label>
                 <input [(ngModel)]="policy.name" name="name" type="text" class="form-control" placeholder="" required>
             </div>
             <div class="form-group">
-                <label>Descripcion</label>
+                <label>DateofBirth</label>
                 <input [(ngModel)]="policy.description" name="description" type="text" class="form-control">
             </div>
             <div class="form-group">
-                <label>Tipo Cobertura</label>
+                <label>Country</label>
                 <input [(ngModel)]="policy.coverageType" name="coverageType" type="text" class="form-control">
             </div>
             <div class="form-group">
-                <label>Cobertura</label>
+                <label>Username</label>
                 <input [(ngModel)]="policy.coverage" name="coverage" type="text" class="form-control">
             </div>
             <div class="form-group">
-                <label>Fecha Inicio</label>
+                <label>Hire Date</label>
                 <input [(ngModel)]="policy.vigencyStart" name="vigencyStart" type="text" class="form-control">
             </div>
             <div class="form-group">
-                <label>Periodo Cobertura</label>
+                <label>Status</label>
                 <input [(ngModel)]="policy.coveragePeriod" name="coveragePeriod" type="text" class="form-control">
             </div>
             <div class="form-group">
-                <label>Precio</label>
+                <label>Area</label>
                 <input [(ngModel)]="policy.price" name="price" type="text" class="form-control">
             </div>
             <div class="form-group">
-                <label>Tipo Riesgo</label>
+                <label>Job Title</label>
+                <input [(ngModel)]="policy.riskType" name="riskType" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Tip Rate</label>
                 <input [(ngModel)]="policy.riskType" name="riskType" type="text" class="form-control">
             </div>
             <div class="form-group">

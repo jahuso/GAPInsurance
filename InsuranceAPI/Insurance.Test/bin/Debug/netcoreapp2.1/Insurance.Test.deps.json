@@ -1323,7 +1323,7 @@
       },
       "Insurance.Business/1.0.0": {
         "dependencies": {
-          "Insurance.Repos": "1.0.0"
+          "Insurance.Data": "1.0.0"
         },
         "runtime": {
           "Insurance.Business.dll": {}
@@ -1337,14 +1337,6 @@
         },
         "runtime": {
           "Insurance.Data.dll": {}
-        }
-      },
-      "Insurance.Repos/1.0.0": {
-        "dependencies": {
-          "Insurance.Data": "1.0.0"
-        },
-        "runtime": {
-          "Insurance.Repos.dll": {}
         }
       }
     }
@@ -2075,11 +2067,6 @@
       "sha512": ""
     },
     "Insurance.Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Insurance.Repos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

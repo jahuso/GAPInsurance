@@ -948,19 +948,6 @@
         "runtime": {
           "bin/placeholder/Insurance.Data.dll": {}
         }
-      },
-      "Insurance.Repos/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Insurance.Data": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Insurance.Repos.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Insurance.Repos.dll": {}
-        }
       }
     }
   },
@@ -3601,16 +3588,11 @@
       "type": "project",
       "path": "../Insurance.Data/Insurance.Data.csproj",
       "msbuildProject": "../Insurance.Data/Insurance.Data.csproj"
-    },
-    "Insurance.Repos/1.0.0": {
-      "type": "project",
-      "path": "../Insurance.Repos/Insurance.Repos.csproj",
-      "msbuildProject": "../Insurance.Repos/Insurance.Repos.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Insurance.Repos >= 1.0.0",
+      "Insurance.Data >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -3644,8 +3626,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\GapInsurance\\InsuranceAPI\\Insurance.Repos\\Insurance.Repos.csproj": {
-              "projectPath": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Repos\\Insurance.Repos.csproj"
+            "F:\\GapInsurance\\InsuranceAPI\\Insurance.Data\\Insurance.Data.csproj": {
+              "projectPath": "F:\\GapInsurance\\InsuranceAPI\\Insurance.Data\\Insurance.Data.csproj"
             }
           }
         }

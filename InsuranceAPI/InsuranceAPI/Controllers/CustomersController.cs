@@ -1,6 +1,7 @@
 ﻿using Insurance.Business;
 using Insurance.Data.Models;
 using Insurance.Repos;
+using Insurance.Repos.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -13,18 +14,18 @@ namespace InsuranceAPI.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        private readonly InsuranceDBContext _context;
+        private readonly ICustomerRepository _customerRepository;
 
-        public CustomersController(InsuranceDBContext context)
+        public CustomersController(ICustomerRepository customerRepository)
         {
-            _context = context;
+            _customerRepository = customerRepository;
         }
 
         // GET: api/Customers
         [HttpGet]
         public IEnumerable<Customer> GetCustomers()
         {
-            return _context.Customers;
+            return _customerRepository.GetCustomers();
         }
 
         // GET: api/Customers/5
@@ -36,7 +37,7 @@ namespace InsuranceAPI.Controllers
                 return BadRequest(ModelState);
             }
 
-            var customer = await _context.Customers.FindAsync(id);
+            var customer = _customerRepository.GetCustomer(id);
 
             if (customer == null)
             {
@@ -48,7 +49,7 @@ namespace InsuranceAPI.Controllers
 
         // PUT: api/Customers/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCustomer([FromRoute] int id, [FromBody] Customer customer)
+        public async Task<IActionResult> AssignPolicy([FromRoute] int id, [FromBody] Customer customer)
         {
             if (!ModelState.IsValid)
             {
@@ -60,11 +61,10 @@ namespace InsuranceAPI.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(customer).State = EntityState.Modified;
-
+            
             try
             {
-                await _context.SaveChangesAsync();
+                _customerRepository.AssignPolicy(customer);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -85,28 +85,26 @@ namespace InsuranceAPI.Controllers
 
         // DELETE: api/Customers/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCustomer([FromRoute] int id)
+        public async Task<IActionResult> CancelPolicy([FromRoute] int id)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            var customer = await _context.Customers.FindAsync(id);
+            var customer = _customerRepository.GetCustomer(id);
             if (customer == null)
             {
                 return NotFound();
             }
 
-            _context.Customers.Remove(customer);
-            await _context.SaveChangesAsync();
-
+            _customerRepository.CancelPolicy(customer);
             return Ok(customer);
         }
 
         private bool CustomerExists(int id)
         {
-            return _context.Customers.Any(e => e.Id == id);
+            return _customerRepository.CustomerExists(id);
         }
     }
 }

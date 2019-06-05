@@ -13,11 +13,12 @@ F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Da
 F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.runtimeconfig.dev.json
 F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.dll
 F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.pdb
+F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
+F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml
+F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.csprojAssemblyReference.cache
 F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.csproj.CoreCompileInputs.cache
 F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.AssemblyInfoInputs.cache
 F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.AssemblyInfo.cs
+F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.csproj.CopyComplete
 F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.dll
 F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.pdb
-F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
-F:\GapInsurance\InsuranceAPI\Insurance.Data\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml
-F:\GapInsurance\InsuranceAPI\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.csproj.CopyComplete

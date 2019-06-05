@@ -25,7 +25,7 @@
       "InsuranceAPI/1.0.0": {
         "dependencies": {
           "Insurance.Business": "1.0.0",
-          "Insurance.Repos": "1.0.0",
+          "Insurance.Data": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Identity": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -519,7 +519,7 @@
       },
       "Insurance.Business/1.0.0": {
         "dependencies": {
-          "Insurance.Repos": "1.0.0"
+          "Insurance.Data": "1.0.0"
         },
         "runtime": {
           "Insurance.Business.dll": {}
@@ -539,17 +539,6 @@
         },
         "compile": {
           "Insurance.Data.dll": {}
-        }
-      },
-      "Insurance.Repos/1.0.0": {
-        "dependencies": {
-          "Insurance.Data": "1.0.0"
-        },
-        "runtime": {
-          "Insurance.Repos.dll": {}
-        },
-        "compile": {
-          "Insurance.Repos.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3688,11 +3677,6 @@
       "sha512": ""
     },
     "Insurance.Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Insurance.Repos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

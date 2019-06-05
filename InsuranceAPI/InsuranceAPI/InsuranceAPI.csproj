@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Insurance.Business\Insurance.Business.csproj" />
-    <ProjectReference Include="..\Insurance.Repos\Insurance.Repos.csproj" />
+    <ProjectReference Include="..\Insurance.Data\Insurance.Data.csproj" />
   </ItemGroup>
 
 </Project>
